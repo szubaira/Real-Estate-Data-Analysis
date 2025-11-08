@@ -3,20 +3,20 @@
 This project explores and cleans two core datasets from S.S. Lootah Real Estate — **Total Contracts** and **Unit Master** — to produce reliable, decision-ready views on **revenue**, **occupancy**, and **contract health**.  
 It includes robust data cleaning (type casting, date normalization, de-duplication), engineered features (transaction year/month, contract duration, occupancy flags), and visual analyses (monthly revenues, transactions, occupancy by building, expiries).
 
-> **Highlights**
-> - Cleaned and validated transactional and unit-level datasets
-> - KPIs & visuals: monthly revenue (2024/2025), transactions by month, contract duration distribution, occupancy %, top-20 buildings by occupancy, and expired contracts by building
-> - Exported clean CSVs for **Tableau** or downstream analytics
+**Highlights**
+- Cleaned and validated transactional and unit-level datasets
+- KPIs & visuals: monthly revenue (2024/2025), transactions by month, contract duration distribution, occupancy %, top-20 buildings by occupancy, and expired contracts by building
+- Exported clean CSVs for **Tableau** or downstream analytics
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 > Paths in the script are set for Colab (`/content/...`). If running locally, either mimic this structure or update the paths.
 
 ---
 
-## 🗂️ Data Inputs
+## Data Inputs
 
 **1) Total Contracts** (`Total Contracts-Table 1.csv`)  
 - Key columns used in the script:
@@ -33,7 +33,7 @@ It includes robust data cleaning (type casting, date normalization, de-duplicati
 
 ---
 
-## 🧹 Data Cleaning & Feature Engineering
+## Data Cleaning & Feature Engineering
 
 **Contracts (df)**
 - Strip and coerce `Amount` to numeric (remove symbols, cast to float)
@@ -57,7 +57,7 @@ It includes robust data cleaning (type casting, date normalization, de-duplicati
 
 ---
 
-## 📊 Key Analyses & Visuals
+## Key Analyses & Visuals
 
 > The script uses **pandas**, **numpy**, **matplotlib**, and **seaborn**.
 
@@ -98,4 +98,3 @@ python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python src/updated_realestate_eda_python.py
-
