@@ -12,7 +12,7 @@ It includes robust data cleaning (type casting, date normalization, de-duplicati
 
 ## Repository Structure
 
-> Paths in the script are set for Colab (`/content/...`). If running locally, either mimic this structure or update the paths.
+Paths in the script are set for Colab (`/content/...`). If running locally, either mimic this structure or update the paths.
 
 ---
 
@@ -51,17 +51,13 @@ It includes robust data cleaning (type casting, date normalization, de-duplicati
 - **Occupancy flag**: map `Rental Status` to {LEASED/BOOKED → 1, VACANT/EXPIRED → 0}
 - **Building-level occupancy**: mean of `occupancy_flag` × 100
 
-> Clean outputs saved as:
-> - `outputs/clean/Cleaned_Totalcontracts_Data.csv`  
-> - `outputs/clean/Cleaned_units_data.csv`
-
 ---
 
 ## Key Analyses & Visuals
 
-> The script uses **pandas**, **numpy**, **matplotlib**, and **seaborn**.
+The script uses **pandas**, **numpy**, **matplotlib**, and **seaborn**.
 
-1) **Revenue Trends**
+1) Revenue Trends**
    - Total revenue by `transaction_year`
    - Average revenue for 2024 and 2025
    - Total revenue by `transaction_month_name` for 2024 and 2025
@@ -78,7 +74,7 @@ It includes robust data cleaning (type casting, date normalization, de-duplicati
    - Overall occupancy rate (mean of `occupancy_flag`)
    - **Top 20 buildings by occupancy rate** (bar chart)
 
-> These visuals support executive dashboards (e.g., in Tableau) for **Revenue**, **Occupancy**, **Expired Contracts**, and **Seasonality**.
+These visuals support executive dashboards (e.g., in Tableau) for **Revenue**, **Occupancy**, **Expired Contracts**, and **Seasonality**.
 
 ---
 
