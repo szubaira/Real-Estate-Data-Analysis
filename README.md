@@ -1,4 +1,4 @@
-# S.S. Lootah Real Estate — Exploratory Data Analysis (EDA)
+# S.S. Lootah Real Estate — Exploratory Data Analysis
 
 This project explores and cleans two core datasets from S.S. Lootah Real Estate — **Total Contracts** and **Unit Master** — to produce reliable, decision-ready views on **revenue**, **occupancy**, and **contract health**.  
 It includes robust data cleaning (type casting, date normalization, de-duplication), engineered features (transaction year/month, contract duration, occupancy flags), and visual analyses (monthly revenues, transactions, occupancy by building, expiries).
