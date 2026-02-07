@@ -16,6 +16,8 @@ The analysis utilized two primary datasets:
 * **Unit Master:** Contained unit-level details such as rental status, building names, and unit prices.
 * **Timeframe:** The analysis specifically focused on revenue and transaction trends across the **2024 and 2025** fiscal periods.
 * **Data Limitations:** Initial datasets contained varied date formats (using dots, dashes, and slashes), duplicate rows, and non-numeric symbols in currency fields. These inconsistencies required extensive normalization to ensure the accuracy of the downstream financial KPIs.
+<img width="715" height="481" alt="Screen Shot 2026-02-07 at 14 11 37" src="https://github.com/user-attachments/assets/b0af2bb6-f26e-49ac-ad0c-82ac914dcc72" />
+<img width="985" height="585" alt="Screen Shot 2026-02-07 at 14 12 19" src="https://github.com/user-attachments/assets/1976c498-0170-4b58-9fee-f7e63b6fe161" />
 
 ### **Modeling and Evaluation**
 
@@ -27,6 +29,9 @@ While this project was centered on **Exploratory Data Analysis (EDA)** rather th
 * **Occupancy Rate %:** Mean of the engineered `occupancy_flag` across buildings.
 * **Revenue Seasonality:** Distribution of transactions by month (Jan–Dec) to identify peak leasing periods.
 * **Contract Duration Distribution:** Histogram analysis to identify standard 1-year tenures vs. outliers.
+<img width="985" height="581" alt="Screen Shot 2026-02-07 at 14 08 34" src="https://github.com/user-attachments/assets/365a560a-5d9c-4f84-a50d-e515c1c14cde" />
+<img width="983" height="586" alt="Screen Shot 2026-02-07 at 14 09 29" src="https://github.com/user-attachments/assets/9f069ee9-3086-4d48-bfc3-bd77373a8215" />
+<img width="978" height="587" alt="Screen Shot 2026-02-07 at 14 10 01" src="https://github.com/user-attachments/assets/723ca891-42f4-499e-a017-1ff6a489d353" />
 
 ### **Conclusion**
 
